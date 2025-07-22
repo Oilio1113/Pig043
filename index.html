@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>6 พันธุ์หมูน่ารัก</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Mali&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Mali', sans-serif;
+      background: linear-gradient(135deg, #ffe6f7, #e6f7ff);
+    }
+    .rounded-pinkblue {
+      border: 3px solid #ff99cc;
+      border-radius: 30px;
+    }
+    .text-large {
+      font-size: 2.5rem;
+      font-weight: bold;
+      color: #ff66b2;
+    }
+    .custom-text-box p {
+      font-size: 1.4rem;
+      margin-bottom: 0;
+      color: #0099cc;
+    }
+    .img-box {
+      background-color: #ffe6f7;
+      border: 2px solid #99ddff;
+      border-radius: 20px;
+      padding: 10px;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+    .img-box img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 10px;
+      border: 2px solid #ff99cc;
+      background-color: #ffffff;
+    }
+    .caption {
+      font-weight: bold;
+      margin-top: 8px;
+      color: #ff66b2;
+    }
+    .img-box small {
+      display: block;
+      margin-top: auto;
+      color: #555;
+    }
+    .p-3, .p-4 {
+      background-color: #fdf6f9;
+      border: 2px solid #ffb3e6;
+      border-radius: 25px;
+    }
+/* Navbar Styles */
+    .navbar {
+      display: flex;
+      background-color: #e0c7ff;
+      padding: 10px 20px;
+      align-items: center;
+    }
+
+    .navbar-nav {
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+    }
+
+    .navbar-nav li a {
+      color: #ff66b2; 
+      font-weight: bold;
+      padding: 14px 20px;
+    }
+
+    .navbar-nav li a:hover {
+      background-color: #ffb3e6; 
+      border-radius: 5px;
+      transform: scale(1.1);
+      transition: transform 0.2s ease-in-out;
+    }
+
+    .navbar-nav li.active a {
+      background-color: #e0c7ff;
+      transform: scale(1.1);
+    }
+
+
+    .navbar a {
+      margin-right: 20px;
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+    }
+
+    .navbar a:hover {
+      text-decoration: underline;
+    }    
+    .navbar-custom {
+      background-color: #e0c7ff; 
+    }
+    .dropdown-menu {
+      background-color: #f8edff; 
+    }
+    .dropdown-item:hover {
+      background-color: #e0c7ff;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg" style="background-color: #ffe6f7;">
+  <div class="container">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav d-flex gap-2">
+        <li class="nav-item">   
+            <a class="nav-link fw-bold text-dark" href="LB.html" >Home</a>
+        </li>
+        <ul class="navbar-nav d-flex gap-2">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle fw-bold text-dark" href="LW.html" id="historyDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              ประวัติแต่ละสายพันธุ์
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="historyDropdown">
+              <li><a class="dropdown-item" href="LW.html">ลาร์จไวท์</a></li>
+              <li><a class="dropdown-item" href="DR.html">ดูร็อคเจอร์ซี่</a></li>
+              <li><a class="dropdown-item" href="BK.html">เบอร์กเชียร์</a></li>
+              <li><a class="dropdown-item" href="MS.html">เหมยซาน</a></li>
+              <li><a class="dropdown-item" href="SP.html">สปอร์เต็ดโปแลนด์ไชน่า</a></li>
+              <li><a class="dropdown-item" href="PL.html">โปแลนด์ไชน่า</a></li>
+            </ul>
+          </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  
+<div class="container mt-5">
+  <!-- แถวหัวข้อ -->
+  <div class="row justify-content-center align-items-center text-center">
+    <div class="col-md-4 mb-4">
+      <div class="p-4 rounded-pinkblue" style="background-color: #ffe6f7;">
+        <span class="text-large">🐷 6 พันธุ์หมูน่ารัก</span>
+      </div>
+    </div>
+    <div class="col-md-6 mb-3">
+      <div class="p-4 rounded-pinkblue custom-text-box" style="background-color: #e6f7ff;">
+        <p>ถ้าเเฟนคุณบอกว่า <span style="color: #ff66b2; font-weight: bold;">“ตุตะเหมือนหมูเลย”</span></p>
+        <p>ลองเลือกดูจาก</p>
+        <p><span style="color: #ff66b2; font-weight: bold;">6 พันธุ์หมูสุดคิ้วท์</span> ที่นี่สิเเล้วไปตอบว่าเหมือนหมูไหน</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- แถว2 ชนิดหมู -->
+  <div class="row mb-3 align-items-stretch">
+    <div class="col-md-2 mb-3">
+      <div class="img-box text-center h-100 d-flex flex-column">
+        <img src="img/1.jpg" alt="ลาร์จไวท์">
+        <div class="caption">ลาร์จไวท์</div>
+        <small>
+          ตัวใหญ่ สีชมพูขาว ลำตัวเรียวยาว เป็นหมูพันธุ์ยอดนิยมในฟาร์ม
+        </small>
+      </div>
+    </div>
+
+    <div class="col-md-2 mb-3">
+      <div class="img-box text-center h-100 d-flex flex-column">
+        <img src="img/2.jpg" alt="ดูร็อคเจอร์ซี่">
+        <div class="caption">ดูร็อคเจอร์ซี่</div>
+        <small>
+          ขนสีน้ำตาลแดง หูห้อย นิสัยสงบ โตไว เหมาะเลี้ยงกลางแจ้ง
+        </small>
+      </div>
+    </div>
+
+    <div class="col-md-2 mb-3">
+      <div class="img-box text-center h-100 d-flex flex-column">
+        <img src="img/3.jpg" alt="เบอร์กเชียร์">
+        <div class="caption">เบอร์กเชียร์</div>
+        <small>
+          ขนดำปลายขาว เนื้อคุณภาพดี นุ่มอร่อยจนเป็นที่นิยม
+        </small>
+      </div>
+    </div>
+
+    <div class="col-md-2 mb-3">
+      <div class="img-box text-center h-100 d-flex flex-column">
+        <img src="img/4.jpg" alt="เหมยซาน">
+        <div class="caption">เหมยซาน</div>
+        <small>
+          หมูจีนจิ๋ว น่ารักมาก ตัวเล็ก อ้วนกลม และเป็นมิตร
+        </small>
+      </div>
+    </div>
+
+    <div class="col-md-2 mb-3">
+      <div class="img-box text-center h-100 d-flex flex-column">
+        <img src="img/5.jpg" alt="สปอร์เต็ดโปแลนด์ไชน่า">
+        <div class="caption">สปอร์เต็ดโปแลนด์ไชน่า</div>
+        <small>
+          ลายจุดสีขาวดำ หูใหญ่ หางสั้น ดูกวนแต่ใจดี
+        </small>
+      </div>
+    </div>
+
+    <div class="col-md-2 mb-3">
+      <div class="img-box text-center h-100 d-flex flex-column">
+        <img src="img/6.jpg" alt="โปแลนด์ไชน่า">
+        <div class="caption">โปแลนด์ไชน่า</div>
+        <small>
+          หมูขนดำ หูปิดตา เนื้อชั้นเลิศ และมีความอ่อนโยนมาก
+        </small>
+      </div>
+    </div>
+  </div>
+    <!-- หมวดแนะนำ -->
+  <div class="row mb-4">
+    <div class="col-md-6">
+      <div class="box bg-green">
+        <h5>🎁 หมูเลือกให้: ของขวัญวันครบรอบ</h5>
+        <p>คัดหมูสายละมุน ซื้อเอาใจให้เเฟนกินแบบจัดเต็ม (จะได้ไม่โกรธที่เรียกหมูอิอิ)</p>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="box bg-green">
+        <h5>🐷 หมูเเบ่งเป็น 3 ประเภท</h5>
+        <p>ประเภทมัน : ประเภทเนื้อ : ประเภทเบคอน</p>
+      </div>
+    </div>
+  </div>
+
+<!-- แหล่งอ้างอิง -->
+<div class="row justify-content-center mt-4">
+  <div class="col-md-8">
+    <div class="p-3 rounded-pinkblue fs-5 text-center" style="background-color: #f1edf5;">
+      <p class="mb-0">แหล่งอ้างอิง: 1. FAO Livestock Report 🐖 2. The Pig Site 🐽 3. Pig Breeds Info</p>
+    </div>
+  </div>
+</div>
+
+
+  <!-- ความคิดเห็นส่วนตัว -->
+  <div class="row align-items-center justify-content-center mt-5">
+    <!-- L -->
+    <div class="col-lg-3 col-md-4 mb-3">
+      <div class="p-3" style="background-color: #ffe6f7; border: 2px solid #ff99cc; border-radius: 30px;">
+        <img src="img/09.jpg" class="img-fluid rounded" alt="Cute Pig">
+      </div>
+    </div>
+
+    <!-- T -->
+    <div class="col-lg-6 col-md-8 mb-3">
+      <div class="p-4" style="background-color: #ffffff; border: 2px solid #ff99cc; border-radius: 25px; text-align: left;">
+        <h5 class="fw-bold" style="color: #ff66b2;">ความคิดเห็นส่วนตัวเกี่ยวกับน้องหมู</h5>
+        <p class="mb-0" style="color: #0099cc;">
+          หมูเป็นสัตว์ที่น่ารักและฉลาดมากๆ น้องๆ ชอบกิน ชอบเล่น และมีอารมณ์ขันสุดๆ
+          ยิ่งพันธุ์เหมยซาน น่ารักจนอยากเลี้ยงไว้ที่บ้านเลย เเละที่สำคัญน้องอร่อยมาก อร่อยขนาดนี้ให้หยุดกินได้ไง 💖🐽
+        </p>
+      </div>
+    </div>
+
+    <!-- R -->
+    <div class="col-lg-3 col-md-4 mb-3 d-none d-md-block">
+      <div class="p-3" style="background-color: #e6f7ff; border: 2px solid #99ddff; border-radius: 28px;">
+        <img src="img/08.jpg" class="img-fluid rounded" alt="Cute Pig 2">
+      </div>
+    </div>
+  </div>
+
+  <!-- name -->
+  <div class="container mt-4 mb-5">
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <div class="p-3 rounded-pinkblue fs-5 text-center" style="background-color: #f1edf5;">
+          <p class="mb-0">664281043 พงศกร บัวสะอาด 66/50</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>
+
+<!-- Footer -->
+  <div class="container mt-4 mb-5">
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <div class="p-3 rounded-purple fs-5 text-center" style="background-color: #f1edf5;">
+          <p class="mb-0">บ้านมืดแปดด้าน ช่องทางการติดต่อ 012-345-6789 </p>
+        </div>
+      </div>
+    </div>
+  </div>
